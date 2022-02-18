@@ -1,0 +1,143 @@
+﻿@*@model BookingViewModel*@
+
+@{
+    ViewData["Title"] = "History Page";
+    if (Model.User.UserName != null)
+    {
+
+        Layout = "_LoggedinLayout";
+
+    }
+}
+@section stylesheets{
+    <link rel="stylesheet" href="~/css/history.css?ver=1">
+}
+
+<!-- Booking History -->
+<div id="bookingHistory">
+    <h1 class="pageTitle">Booking History</h1>
+    <div id="historyContainer">
+        <div id="historyHeader">
+            <div class="headerTextNumber">
+                <p class="headerText">No.</p>
+            </div>
+            <div class="headerTextId">
+                <p class="headerText">Booking ID</p>
+            </div>
+            <div class="headerTextStatus">
+                <p class="headerText">Booking Status</p>
+            </div>
+            <div class="headerTextAction">
+                <p class="headerText">Actions</p>
+            </div>
+        </div>
+        <div id="historyContent"></div>
+        @*<div class="historyContent">
+                <div class="contentTextNumber">
+                    <p class="contentText">1.</p>
+                </div>
+                <div class="contentTextId">
+                    <p class="contentText">Booking #123231231</p>
+                </div>
+                <div class="contentTextStatus">
+                    <p class="contentText">Status: Pending</p>
+                </div>
+                <div class="contentTextAction">
+                    <button class="bookingDetail">Detail</button>
+                </div>
+            </div>
+            <div class="historyContent">
+                <div class="contentTextNumber">
+                    <p class="contentText">2.</p>
+                </div>
+                <div class="contentTextId">
+                    <p class="contentText">Booking #123231221</p>
+                </div>
+                <div class="contentTextStatus">
+                    <p class="contentText">Status: Pending</p>
+                </div>
+                <div class="contentTextAction">
+                    <button class="bookingDetail">Detail</button>
+                </div>
+            </div>*@
+    </div>
+</div>
+<!-- Booking Detail Popup -->
+<div id="bookingDetailPopUp">
+
+</div>
+<!-- Booking Detail Cancel -->
+<div id="bookingDetailCancel">
+    <div id="bookingContentContainer">
+        <div id="bookingHeader">
+            <h1 class="bookingTitle">Cancel Booking</h1>
+            <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeBookingCancel()"></span>
+        </div>
+        <div id="bookingBody">
+            <p class="bookingCancelText">
+                Are you sure you want to cancel the booking?
+            </p>
+        </div>
+        <div id="bookingFooter">
+            <a href="#" class="bookingCancelCancel" onclick="closeBookingCancel()">
+                No
+            </a>
+            <a href="#" class="bookingCancelYes">
+                Yes
+            </a>
+            <div class="spacer" style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+<!-- Booking Detail Cancel Complete -->
+<div id="bookingDetailCancelComplete">
+    <div id="bookingContentContainer">
+        <div id="bookingHeader">
+            <h1 class="bookingTitle">Cancel Booking</h1>
+            <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeBookingCancelComplete()"></span>
+        </div>
+        <div id="bookingBody">
+            <p class="bookingCancelText">
+                Booking Canceled
+            </p>
+        </div>
+        <div id="bookingFooter">
+            <a href="#" class="bookingCancelBack" onclick="closeBookingCancelComplete()">
+                Back
+            </a>
+            <div class="spacer" style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+<!-- Booking Detail Payment -->
+<div id="bookingDetailPayment">
+    <div id="bookingContentContainer">
+        <div id="bookingHeader">
+            <h1 class="bookingTitle">Payment</h1>
+            <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeBookingCancelComplete()"></span>
+        </div>
+        <div id="bookingBody">
+            <p class="bookingPayment">
+                Please transfer <span class=" totalTransfer"> </span> to the virtual account below:
+            </p>
+            <p class="bookingPayment">
+                Virtual Account Number:
+                <br>
+                1234567891011
+            </p>
+            <small class="bookingPaymentReminder">
+                Payment will fail automatically in 24 hours
+            </small>
+        </div>
+        <div id="bookingFooter">
+            <a href="#" class="bookingCancelBack" onclick="closeBookingCancelComplete()">
+                Back
+            </a>
+            <div class="spacer" style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/history.js"></script>
+}

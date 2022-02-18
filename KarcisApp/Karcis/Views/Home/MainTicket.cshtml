@@ -1,0 +1,193 @@
+﻿@{
+    Layout = null;
+}
+
+@model Dictionary<string, TicketViewModel>
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<div id="ticketContent">
+    <div id="ticketLeftSide">
+        <div class="ticket platinum">
+            <div class="ticketText">
+                <h1 class="ticketTitle">PLATINUM</h1>
+
+                @if (Model.ContainsKey("Platinum"))
+                {
+                    <h2 class="ticketPrice">
+                        @string.Format("Rp {0:#,#}", Model["Platinum"].TicketPrice)
+                    </h2>
+                    <h3>Available @Model["Platinum"].Qty</h3>
+                    <p>Max. @((Model["Platinum"].Qty >= 30 )? 30 : Model["Platinum"].Qty)</p>
+                    <div class="buyButtonAndForm">
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null)
+                        {
+                            <button class="buyButton">
+                                <p class="buttonText">BUY NOW</p>
+                            </button>
+                        }
+                        else
+                        {
+                            <a asp-controller="Registry" asp-action="Login">
+                                <button class="buyButton">
+                                    <p class="buttonText">BUY NOW</p>
+                                </button>
+                            </a>
+                        }
+                        <input id="inputPlatinum" value="0" type="number" name="platinumAmount" class="ticketAmount" placeholder="Enter Amount..." min="0">
+                        <input id="inputPricePlatinum" type="hidden" value=@Model["Platinum"].TicketPrice />
+                        <input id="PlatinumQty" type="hidden" value=@Model["Platinum"].Qty />
+                    </div>
+                }
+                else
+                {
+                    <h3> OUT OF STOCKS</h3>
+                }
+
+            </div>
+            <div class="ticketBarcode">
+                <img src="images/Barcode Ticket.png" alt="Barcode" class="barcodeImage">
+            </div>
+        </div>
+        <div class="ticket silver">
+            <div class="ticketText">
+                <h1 class="ticketTitle">SILVER</h1>
+
+
+                @if (Model.ContainsKey("Silver"))
+                {
+                    <h2 class="ticketPrice">
+                        @string.Format("Rp {0:#,#}", Model["Silver"].TicketPrice)
+                    </h2>
+                    <h3>Available @Model["Silver"].Qty</h3>
+                    <p>Max. @((Model["Silver"].Qty >= 30 )? 30 : Model["Silver"].Qty)</p>
+                    <div class="buyButtonAndForm">
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null)
+                        {
+                            <button class="buyButton">
+                                <p class="buttonText">BUY NOW</p>
+                            </button>
+                        }
+                        else
+                        {
+                            <a asp-controller="Registry" asp-action="Login">
+                                <button class="buyButton">
+                                    <p class="buttonText">BUY NOW</p>
+                                </button>
+                            </a>
+                        }
+                        <input id="inputSilver" value="0" type="number" name="platinumAmount" class="ticketAmount" placeholder="Enter Amount..." min="0">
+                        <input id="inputPriceSilver" type="hidden" value=@Model["Silver"].TicketPrice />
+                        <input id="SilverQty" type="hidden" value=@Model["Silver"].Qty />
+                    </div>
+                }
+                else
+                {
+                    <h3> OUT OF STOCKS</h3>
+                }
+
+
+            </div>
+            <div class="ticketBarcode">
+                <img src="images/Barcode Ticket.png" alt="Barcode" class="barcodeImage">
+            </div>
+        </div>
+    </div>
+    <div id="ticketDivider">
+        <div id="theDivider"></div>
+    </div>
+    <div id="ticketRightSide">
+        <div class="ticket golden">
+            <div class="ticketText">
+                <h1 class="ticketTitle">GOLDEN</h1>
+
+
+                @if (Model.ContainsKey("Golden"))
+                {
+                    <h2 class="ticketPrice">
+                        @string.Format("Rp {0:#,#}", Model["Golden"].TicketPrice)
+                    </h2>
+                    <h3>Available @Model["Golden"].Qty</h3>
+                    <p>Max. @((Model["Golden"].Qty >= 30 )? 30 : Model["Golden"].Qty)</p>
+                    <div class="buyButtonAndForm">
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null)
+                        {
+                            <button class="buyButton">
+                                <p class="buttonText">BUY NOW</p>
+                            </button>
+                        }
+                        else
+                        {
+                            <a asp-controller="Registry" asp-action="Login">
+                                <button class="buyButton">
+                                    <p class="buttonText">BUY NOW</p>
+                                </button>
+                            </a>
+                        }
+                        <input id="inputGolden" value="0" type="number" name="platinumAmount" class="ticketAmount" placeholder="Enter Amount..." min="0" >
+                        <input id="inputPriceGolden" type="hidden" value=@Model["Golden"].TicketPrice />
+                        <input id="GoldenQty" type="hidden" value=@Model["Golden"].Qty />
+                    </div>
+                }
+                else
+                {
+                    <h3> OUT OF STOCKS</h3>
+                }
+
+
+            </div>
+            <div class="ticketBarcode">
+                <img src="images/Barcode Ticket.png" alt="Barcode" class="barcodeImage">
+            </div>
+        </div>
+        <div class="ticket bronze">
+            <div class="ticketText">
+                <h1 class="ticketTitle">BRONZE</h1>
+
+                @if (Model.ContainsKey("Bronze"))
+                {
+                    <h2 class="ticketPrice">
+                        @string.Format("Rp {0:#,#}", Model["Bronze"].TicketPrice)
+                    </h2>
+                    <h3>Available @Model["Bronze"].Qty</h3>
+                    <p>Max. @((Model["Bronze"].Qty >= 30 )? 30 : Model["Bronze"].Qty)</p>
+                    <div class="buyButtonAndForm">
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("Token") != null)
+                        {
+                            <button class="buyButton">
+                                <p class="buttonText">BUY NOW</p>
+                            </button>
+                        }
+                        else
+                        {
+                            <a asp-controller="Registry" asp-action="Login">
+                                <button class="buyButton">
+                                    <p class="buttonText">BUY NOW</p>
+                                </button>
+                            </a>
+                        }
+                        <input id="inputBronze" value="0" type="number" name="platinumAmount" class="ticketAmount" placeholder="Enter Amount..." min="0">
+                        <input id="inputPriceBronze" type="hidden" value=@Model["Bronze"].TicketPrice />
+                        <input id="BronzeQty" type="hidden" value=@Model["Bronze"].Qty />
+                    </div>
+                }
+                else
+                {
+                    <h3> OUT OF STOCKS</h3>
+                }
+
+
+            </div>
+            <div class="ticketBarcode">
+                <img src="images/Barcode Ticket.png" alt="Barcode" class="barcodeImage">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cartContainer">
+    <span class="iconify" data-icon="fontisto:shopping-basket"></span>
+</div>
+<!-- Booking Summary -->
+<div id="bookingSummary">
+
+</div>

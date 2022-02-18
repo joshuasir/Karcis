@@ -1,0 +1,91 @@
+body, *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.loginPage{
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+.loginimg{
+  flex-basis: 60%;
+  overflow: hidden;
+  position: relative;
+}
+.blacklayer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+.concertimg{
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.login{
+  padding: 2rem;
+  text-align: left;
+  flex-basis: 30%;
+}
+.logincontainer{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+h1{
+  font-size: 3em;
+  font-family: 'MarkaziText-Regular';
+}
+.label{
+  font-size: 1.5em;
+  font-family: 'MarkaziText-Regular';
+}
+.input {
+    width: 100%;
+    height: 2.5em;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+.remembermetext{
+  font-size: 1.2em;
+  font-family: 'MarkaziText-Regular';
+}
+button{
+  font-size: 1.5em;
+  font-family: 'MarkaziText-Regular';
+  background-color: #072227;
+  color: white;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.5em;
+  border-radius: .25em;
+}
+.inputform{
+  padding-bottom: 1rem;
+}
+.logoside{
+  background-color: #072227;
+  flex-basis: 10%;
+  color: #FFAFAF;
+  text-align: center;
+}
+.logocontainer{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+h4{
+  font-size: 1.2em;
+  font-family: 'MarkaziText-Regular';
+}

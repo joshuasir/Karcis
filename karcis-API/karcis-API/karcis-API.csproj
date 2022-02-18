@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>karcis_API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
+    <PackageReference Include="Binus.WS.Pattern" Version="2.1.6" />
+    <PackageReference Include="Binus.WS.Pattern.Entities" Version="1.5.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+
+</Project>

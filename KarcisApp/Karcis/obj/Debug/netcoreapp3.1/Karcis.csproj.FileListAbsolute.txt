@@ -1,0 +1,337 @@
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.xml
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Karcis.styles.css
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\Users\Joshua\source\repos\Karcis\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\payment.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\Users\Joshua\source\repos\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.xml
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Karcis.styles.css
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Payments.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingDetail.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingHistory.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.xml
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Karcis.styles.css
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Payments.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingDetail.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingHistory.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\Desktop\programming\websites\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.StaticWebAssets.xml
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\TestKarcis\Karcis\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Payments.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingDetail.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingHistory.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\TestKarcis\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\Desktop\Karcis\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.xml
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Karcis.styles.css
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Payments.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingDetail.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingHistory.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\Desktop\Karcis\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.xml
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Karcis.styles.css
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Payments.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingDetail.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingHistory.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\User\OneDrive - Bina Nusantara University\IT DIV\The App\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.exe
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.deps.json
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.json
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.runtimeconfig.dev.json
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.dll
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.AssemblyReference.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfoInputs.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.AssemblyInfo.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorAssemblyInfo.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.Manifest.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\staticwebassets\Karcis.StaticWebAssets.xml
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Karcis.styles.css
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.input.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.TagHelpers.output.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorCoreGenerate.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Payments.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingDetail.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\BookingHistory.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookingSummary.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Home\MainTicket.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Login.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Registry\Register.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoggedinLayout.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.RazorTargetAssemblyInfo.cs
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.Views.pdb
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.csproj.CopyComplete
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.dll
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.pdb
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\obj\Debug\netcoreapp3.1\Karcis.genruntimeconfig.cache
+C:\Users\Joshua\Desktop\KarcisApp\Karcis\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll

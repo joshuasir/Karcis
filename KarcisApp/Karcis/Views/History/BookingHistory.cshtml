@@ -1,0 +1,28 @@
+﻿@model List<BookingViewModel>
+@section stylesheets{
+    <link rel="stylesheet" href="~/css/history.css?ver=1">
+}
+@{
+    Layout = null;
+    var number = 1;
+}
+@foreach (var booking in Model)
+{
+    <div id="history#@booking.BookingNumber" class="historyContent">
+
+        <div class="contentTextNumber">
+            <p class="contentText">@number.</p>
+            @{ number = number + 1;}
+        </div>
+        <div class="contentTextId">
+            <p class="contentText">Booking #@booking.BookingNumber</p>
+        </div>
+        <div class="contentTextStatus">
+            <p class="contentText">Status: @booking.Status</p>
+        </div>
+        <div class="contentTextAction">
+            <button class="bookingDetail" onclick="getBookingByID(@booking.BookingNumber,@booking.TotalPrice,'@booking.Status')">Detail</button>
+        </div>
+    </div>
+
+}

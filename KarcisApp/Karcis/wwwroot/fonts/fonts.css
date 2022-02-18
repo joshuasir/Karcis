@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MarkaziText-Regular';
+    src: url('MarkaziText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MarkaziText-Medium';
+    src: url('MarkaziText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MarkaziText-SemiBold';
+    src: url('MarkaziText-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MarkaziText-Bold';
+    src: url('MarkaziText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MarckScript-Regular';
+    src: url('MarckScript-Regular.ttf') format('truetype');
+}

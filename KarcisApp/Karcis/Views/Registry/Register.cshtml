@@ -1,0 +1,83 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/fonts/fonts.css" />
+    <link rel="stylesheet" href="~/css/register.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/register.js"></script>
+    <title>REGISTER</title>
+</head>
+<body class="registerPage">
+    <div class="logoside">
+        <div class="logocontainer">
+            <img class="logoimg" src="/images/festglory.jpg" alt="logokarcis.com" />
+        </div>
+    </div>
+
+    <div class="register">
+        <div class="registerContentContainer">
+            <h1>REGISTER</h1>
+            <form>
+                <div>
+                    <div>
+                        <label for="name">Name</label>
+                        <br />
+                        <input class="input" type="text" id="name" name="User.UserName" />
+                    </div>
+                    <div>
+                        <label for="birthdate">Birth Date</label>
+                        <br />
+                        <input class="input" type="date" name="User.UserDOB" id="birthdate" />
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <br />
+                        <input class="input" type="text" name="User.UserPhone" id="phone" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <br />
+                        <input class="input" type="email" name="User.UserEmail" id="email" />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <br />
+                        <input class="input" type="password" name="User.UserPassword" id="password" />
+                    </div>
+                    <div>
+                        <label for="confirmpassword">Confirm Password</label>
+                        <br />
+                        <input class="input"
+                               type="password"
+                               name="confirmpassword"
+                               id="confirmpassword" />
+                    </div>
+                    <small style="color: red; display: none;" class="PasswordAlert Alert">Confirmation Password Doesn't Match!</small>
+                </div>
+            </form>
+            <small style="color: red; display: none;" class="RegistAlert Alert">Email taken!</small>
+            <button onclick=register() id="registerButton">Register</button>
+            <h4>
+                Already have an account? <a href="/Registry/Login">LOGIN HERE</a>
+            </h4>
+        </div>
+    </div>
+
+    <div class="registimg">
+        <div class="blacklayer"></div>
+        <img class="concertimg" src="/images/Register Image.jpg" />
+    </div>
+</body>
+</html>
+@section Scripts{
+    <script src="~/js/register.js"></script>
+}

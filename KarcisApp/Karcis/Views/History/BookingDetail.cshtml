@@ -1,0 +1,55 @@
+﻿@model List<TicketViewModel>
+@{
+    Layout = null;
+    var sum=0;
+}
+
+<div id="bookingContentContainer">
+    <div id="bookingHeader">
+        <h1 class="bookingTitle">Booking Detail</h1>
+        <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeBookingDetail()"></span>
+    </div>
+    <div id="bookingBody">
+        @foreach (var item in Model)
+        {
+            <div class="bookingContent">
+                <div class="bookingContentLeft">
+                    <h2 class="bookingTypeText platinumText">
+                        @item.TicketType
+                    </h2>
+                    <p class="bookingTypePrice platinumText">
+                        @item.Qty Ticket @@ @string.Format("Rp {0:#,#}", item.TicketPrice)
+                    </p>
+                </div>
+                <div class="bookingContentRight">
+                    <h2 class="bookingTypeTotal platinumText">
+                        @string.Format("Rp {0:#,#}", item.TotalPrice)
+                    </h2>
+                </div>
+            </div>              
+            { sum += item.TotalPrice; }
+        }
+        <div class="bookingTotalPayment">
+            <div class="bookingTotalPaymentLeft">
+                <h2 class="bookingTotalText">
+                    Total Payment
+                </h2>
+            </div>
+            <div class="bookingTotalPaymentRight">
+                <h2 class="bookingTotalPrice">
+                    @string.Format("Rp {0:#,#}", sum.ToString())
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div id="bookingFooter">
+        <a href="#" class="bookingCancelButton">
+            <p>Cancel Booking</p>
+        </a>
+        <a href="#" class="bookingPaymentButton">
+            Pay
+        </a>
+        <div class="spacer" style="clear: both;"></div>
+    </div>
+</div>
+

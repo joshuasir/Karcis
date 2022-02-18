@@ -1,0 +1,213 @@
+﻿@{
+    ViewData["Title"] = "Payments";
+    Layout = "_LoggedinLayout";
+}
+
+@model List<BookingViewModel>
+
+@section stylesheets{
+    <link rel="stylesheet" href="~/css/payments.css">
+}
+
+<!-- Ongoing Payments -->
+<div id="ongoingPayments">
+    <h1 class="pageTitle">Ongoing Payments</h1>
+    <div id="paymentsContainer">
+        <div id="paymentsHeader">
+            <div class="headerTextNumber">
+                <p class="headerText">No.</p>
+            </div>
+            <div class="headerTextId">
+                <p class="headerText">Booking ID</p>
+            </div>
+            <div class="headerTextUsername">
+                <p class="headerText">Username</p>
+            </div>
+            <div class="headerTextStatus">
+                <p class="headerText">Booking Status</p>
+            </div>
+            <div class="headerTextAction">
+                <p class="headerText">Actions</p>
+            </div>
+        </div>
+        <div id="paymentsList">
+        </div>
+    </div>
+</div>
+<!-- Booking Detail Popup -->
+<div id="bookingDetailPopUp">
+    <div id="bookingContentContainer">
+        <div id="bookingHeader">
+            <h1 class="bookingTitle">Booking Detail</h1>
+            <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeAll()"></span>
+        </div>
+        <div id="bookingBody">
+            <h2 class="bookingText bookingId">
+                Booking #
+            </h2>
+            <div class="bookingContent">
+                <div class="bookingContentLeft">
+                    <p class="bookingTypeText">
+                        UserID
+                    </p>
+                </div>
+                <div class="bookingContentRight">
+                    <p class="bookingTypeTotal userIdValue">
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="bookingContent">
+                <div class="bookingContentLeft">
+                    <p class="bookingTypeText">
+                        Quantities
+                    </p>
+                </div>
+                <div class="bookingContentRight">
+                    <p class="bookingTypeTotal numberOfTickets">
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="bookingContent">
+                <div class="bookingContentLeft">
+                    <p class="bookingTypeText">
+                        Amount
+                    </p>
+                </div>
+                <div class="bookingContentRight">
+                    <p class="bookingTypeTotal totalAmmount">
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="bookingFooter">
+            <a href="#" class="bookingCancelCancel" onclick="changeBookingStatus('Declined')">
+                Decline
+            </a>
+            <a href="#" class="bookingCancelYes" onclick="changeBookingStatus('Approved')">
+                Approve
+            </a>
+            <div class="spacer" style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+<!-- Booking Declined -->
+<div id="bookingDeclined">
+    <div id="bookingContentContainer">
+        <div id="bookingHeader">
+            <h1 class="bookingTitle">Payment Detail</h1>
+            <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeAll()"></span>
+        </div>
+        <div id="bookingBody">
+            <p class="bookingCancelText">
+                Payment Declined
+            </p>
+        </div>
+        <div id="bookingFooter">
+            <a href="#" class="bookingCancelBack" onclick="closeAll()">
+                Back
+            </a>
+            <div class="spacer" style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+<!-- Booking Approved -->
+<div id="bookingApproved">
+    <div id="bookingContentContainer">
+        <div id="bookingHeader">
+            <h1 class="bookingTitle">Payment Detail</h1>
+            <span class="iconify" id="closeBookingDetailPopUp" data-icon="charm:circle-cross" onclick="closeAll()"></span>
+        </div>
+        <div id="bookingBody">
+            <p class="bookingCancelText">
+                Payment Approved
+            </p>
+        </div>
+        <div id="bookingFooter">
+            <a href="#" class="bookingCancelBack" onclick="closeAll()">
+                Back
+            </a>
+            <div class="spacer" style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        if ($("#footer").offset().top < window.innerHeight - $("#footer").height()) {
+            $("#footer").css("position", "fixed");
+            $("#footer").css("bottom", "0");
+        }
+        else {
+            $("#footer").css("position", "flex");
+        }
+
+        $(".bookingCancelCancel").on("click", function () {
+            $("#bookingDeclined").css("display", "flex");
+        })
+
+        $(".bookingCancelYes").on("click", function () {
+            $("#bookingApproved").css("display", "flex");
+        })
+
+        function closeAll() {
+            $("#bookingDetailPopUp").css("display", "none");
+            $("#bookingDeclined").css("display", "none");
+            $("#bookingApproved").css("display", "none");
+        }
+
+        async function getBookingByID(bookingID) {
+            const data = await query_getBookingByID(bookingID);
+            $(".bookingId").text("Booking #" + data.bookingNumber);
+            $(".userIdValue").text(data.userID);
+            $(".numberOfTickets").text(data.qty);
+            $(".totalAmmount").text("Rp" + data.totalPrice + ",00");
+            $("#bookingDetailPopUp").css("display", "flex");
+            $(".bookingCancelCancel").attr("bookingNumber", data.bookingNumber);
+            $(".bookingCancelYes").attr("bookingNumber", data.bookingNumber);
+        }
+
+        async function changeBookingStatus(status) {
+            if (status == "Approved") {
+                var bookingID = $(".bookingCancelYes").attr("bookingNumber");
+            }
+            else {
+                var bookingID = $(".bookingCancelCancel").attr("bookingNumber");
+            }
+
+            const data = await query_changeBookingStatus(status, bookingID);
+            loadPaymentList()
+        }
+
+        async function query_getBookingByID(bookingID) {
+            const response = await fetch("../Admin/GetBookingByID?id=" + bookingID, {
+                method: "GET"
+            });
+            const data = await response.json();
+            return data;
+        }
+
+        async function query_changeBookingStatus(status, bookingID) {
+            const response = await fetch("../Admin/ChangeBookingStatus?id="+ bookingID + "&status=" + status, {
+                method: "PATCH"
+            });
+            const data = await response.json();
+            return data;
+        }
+
+        async function loadPaymentList() {
+            const data = await query_getPayments();
+            document.getElementById("paymentsList").innerHTML = data;
+        }
+
+        async function query_getPayments() {
+            const response = await fetch("../Admin/GetAllPayments")
+            const data = await response.text();
+            return data;
+        }
+
+        loadPaymentList()
+    </script>
+}

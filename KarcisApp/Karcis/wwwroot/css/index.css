@@ -1,0 +1,497 @@
+﻿:root {
+    --white: #FFFFFF;
+    --blue1: #AEFEFF;
+    --blue2: #4FBDBA;
+    --blue3: #35858B;
+    --blue4: #072227;
+    --pink: #FFAFAF;
+    --black: #05181C;
+}
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    background-color: var(--blue4) !important;
+}
+
+.container-fluid{
+    padding: inherit !important;
+}
+
+.navbar .container-fluid{
+    padding: 0 0 !important;
+}
+
+/* Navbar */
+.logo-navbar img {
+    height: 3.6rem;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.nav-link:hover {
+    color: #FFAFAF !important;
+    font-weight: bold;
+}
+
+.background-navbar {
+    background-color: #4FBDBA;
+}
+/* HomePart-1 */
+.banner-image {
+    background-image: url('../images/Login Image.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+}
+
+.text-home {
+    color: white;
+}
+
+    .text-home h1 {
+        font-size: 6rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #AEFEFF !important;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+    .text-home h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .text-home h5 {
+        font-family: 'Parisienne', cursive;
+        font-size: 2rem;
+    }
+
+    .text-home span {
+        background-color: #4FBDBA;
+        margin-right: 1rem;
+        padding: 0.2rem 1.2rem;
+        border-radius: 10px;
+        font-size: 2em !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .text-home a {
+        background-color: transparent;
+        border: 2px solid #AEFEFF;
+        padding: 1em 2em;
+        color: #AEFEFF;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: 0.3s;
+        width: fit-content;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+        .text-home a:hover {
+            background-color: #AEFEFF;
+            color: rgb(0, 0, 0);
+        }
+/* HomePart-2 */
+#AboutFestGlory {
+    padding: 8.1rem 0;
+    color: white;
+    text-align: center;
+}
+
+.TitleDescription {
+    margin-bottom: 2rem;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Description {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4em;
+    font-size: 1.5rem;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+/* Home Part-3 / Ticket */
+#mainTicketContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: var(--black);
+    padding: 7rem 0;
+}
+
+.mainTicketTitle {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(--white);
+}
+
+#ticketContent {
+    width: 100%;
+    height: 100%;
+    padding: 2em 10% 0 10%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#ticketLeftSide {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2em;
+}
+
+#ticketDivider {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+    #ticketDivider #theDivider {
+        width: .25em;
+        height: 100%;
+        background-color: var(--white);
+    }
+
+#ticketRightSide {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2em;
+}
+
+.ticket {
+    display: flex;
+    flex-basis: 50%;
+    width: 100%;
+    height: 5em;
+    border-radius: 1.5em;
+}
+
+    .ticket .ticketText {
+        flex-basis: 75%;
+        padding: 3.5em .5em 3em 2em;
+        box-sizing: border-box;
+        position: relative;
+        border-right: .65em solid var(--black);
+    }
+
+        .ticket .ticketText .ticketTitle {
+            font-size: 3em;
+            font-family: 'Poppins', sans-serif;
+            color: var(--black);
+            line-height: .75;
+        }
+
+#ticketRightSide .ticket .ticketText .ticketTitle {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+    line-height: .75;
+}
+
+.ticket .ticketText .ticketPrice {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+}
+
+#ticketRightSide .ticket .ticketText .ticketPrice {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+
+.ticket .ticketText .buyButtonAndForm {
+    display: flex;
+    margin-top: .75em;
+    align-items: center;
+}
+
+    .ticket .ticketText .buyButtonAndForm .buyButton {
+        flex-basis: 40%;
+        height: 2.75em;
+        border: inherit;
+        cursor: pointer;
+        border-radius: 0.25em;
+        padding: 0em 1em;
+        background-color: var(--pink);
+        transition: all 0.15s ease-in-out;
+    }
+
+        .ticket .ticketText .buyButtonAndForm .buyButton:hover {
+            opacity: 0.8;
+        }
+
+        .ticket .ticketText .buyButtonAndForm .buyButton .buttonText {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.25rem;
+            color: var(--black);
+            position: relative;
+            top: 23%;
+            transform: translateY(-50%);
+            margin-bottom: 0;
+        }
+
+    .ticket .ticketText .buyButtonAndForm .ticketAmount {
+        margin-left: auto;
+        margin-right: 2em;
+        width: 35%;
+        height: 2.5em;
+        background-color: var(--white);
+        border: .15em solid var(--black);
+        padding: .25em .5em;
+        box-sizing: border-box;
+        border-radius: 0.25em;
+        display: none;
+    }
+
+.ticket .ticketBarcode {
+    display: flex;
+    flex-basis: 25%;
+    width: 100%;
+    padding: .75em;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket .barcodeImage {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.platinum {
+    background-color: #EAE8E8;
+}
+
+.silver {
+    background-color: #C7C7C7;
+}
+
+.golden {
+    background-color: #CEC045;
+}
+
+.bronze {
+    background-color: #694E4E;
+}
+
+.platinumText {
+    color: #EAE8E8;
+}
+
+.silverText {
+    color: #C7C7C7;
+}
+
+.goldenText {
+    color: #CEC045;
+}
+
+.bronzeText {
+    color: #8b6767;
+}
+
+#cartContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 10%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+
+    #cartContainer .iconify {
+        color: var(--blue1);
+        font-size: 4rem;
+        cursor: pointer;
+        transition: all .25s ease-in-out;
+    }
+
+        #cartContainer .iconify:hover {
+            color: var(--pink);
+        }
+
+        #cartContainer .iconify:active {
+            color: var(--blue3);
+        }
+
+/* Booking Summary */
+#bookingSummary {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
+}
+
+#bookingContentContainer {
+    width: 30%;
+}
+
+#bookingHeader {
+    position: relative;
+    width: 100%;
+    background-color: var(--blue3);
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+}
+
+    #bookingHeader .bookingTitle {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        color: var(--white);
+        text-align: center;
+        margin-bottom: inherit;
+    }
+
+    #bookingHeader .iconify {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        color: var(--pink);
+        font-size: 1.5rem;
+        transition: all .15s ease-in-out;
+        cursor: pointer;
+    }
+
+        #bookingHeader .iconify:hover {
+            color: var(--blue1);
+        }
+
+        #bookingHeader .iconify:active {
+            color: var(--blue3);
+        }
+
+#bookingBody {
+    width: 100%;
+    background-color: var(--blue4);
+    padding: 1.5em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    box-sizing: border-box;
+}
+
+    #bookingBody .bookingContent {
+        display: flex;
+    }
+
+        #bookingBody .bookingContent .bookingContentLeft {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 50%;
+        }
+
+        #bookingBody .bookingContent .bookingContentRight {
+            flex-basis: 50%;
+        }
+
+.bookingTypeText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: inherit;
+}
+
+.bookingTypePrice {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: inherit;
+}
+
+.bookingTypeTotal {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+#bookingFooter {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+}
+
+    #bookingFooter a {
+        display: flex;
+        justify-content: center;
+        text-decoration: inherit;
+        color: inherit;
+        width: 100%;
+        text-align: center;
+    }
+
+.bookingPaymentButton {
+    width: 70%;
+    background-color: var(--pink);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    padding: .25em .5em;
+    border-radius: .25em;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+    margin-bottom: inherit;
+}
+
+    .bookingPaymentButton:hover {
+        background-color: var(--blue1);
+    }
+
+    .bookingPaymentButton:active {
+        background-color: var(--blue3);
+    }
+
+    .bookingPaymentButton p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+/* Footer */
+#footer {
+    display: flex;
+    width: 100%;
+    height: 5em;
+    background-color: #001013;
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--blue1);
+}

@@ -1,0 +1,28 @@
+﻿    @model List<BookingViewModel>
+    @{
+        Layout = null;
+        var number = 1;
+    }
+    @foreach (var booking in Model)
+    {
+    <div class="paymentsContent">
+        <div class="contentTextNumber">
+            <p class="contentText">@number.</p>
+            @{ number = number + 1;}
+        </div>
+        <div class="contentTextId">
+            <p class="contentText">Booking #@booking.BookingNumber</p>
+        </div>
+        <div class="contentTextUsername">
+            <p class="contentText">@booking.Username</p>
+        </div>
+        <div class="contentTextStatus">
+            <p class="contentText">Status: @booking.Status</p>
+        </div>
+        <div class="contentTextAction">
+            @if(booking.Status != "Declined" && booking.Status != "Approved"){
+                <button class="bookingDetail" onclick="getBookingByID(@booking.BookingNumber)">Detail</button>
+            }
+        </div>
+    </div>
+    }

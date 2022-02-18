@@ -1,0 +1,53 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+    if (Model.User.UserName!=null)
+    {
+
+        Layout = "_LoggedinLayout";
+
+    }
+}
+
+@section stylesheets{
+    <link rel="stylesheet" href="~/css/index.css?ver=1">
+}
+<div class="banner-image overlay w-100 vh-100 d-flex align-items-center">
+    <div class="content text-start text-home container">
+        <h1 id="EventName" class="text-white">@Model.Event.EventName</h1>
+        <h4>@Model.Event.EventEndDate | @@@Model.Event.EventLocation</h4><br><br>
+        <div class="20day">
+            <h5>
+                <span>@Model.Event.Days</span>days left
+            </h5>
+        </div><br><br><br>
+        <a target="_blank" href="https://wa.me/6285156615076?text=Halo%20Saya%20Ingin%20Bertanya%20Mengenai%20FESTGLORY">Contact Us</a>
+    </div>
+</div>
+<!-- Home Part 2 -->
+<div id="AboutFestGlory">
+    <h1 class="TitleDescription">ABOUT @Model.Event.EventName</h1>
+    <div class="Description">
+        FESTGLORY 2022 is back to town with unpredictable innovations! Our stage will be sparked by your favorite artists: Taylor Swift, Hardwell, Lany, and Justin Bieber
+    </div>
+</div>
+
+<div id="mainTicketContainer">
+</div>
+
+@section Scripts{
+    <script src="~/js/index.js"></script>
+    <script>
+        //Navbar scroll
+        var navbar = document.querySelector('nav')
+        navbar.classList.remove('background-navbar', 'shadow');
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                navbar.classList.add('background-navbar', 'shadow');
+            } else {
+                navbar.classList.remove('background-navbar', 'shadow')
+            }
+        });
+    </script>
+}
