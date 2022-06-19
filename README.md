@@ -1,5 +1,5 @@
-Karcis App 
-a microservice web app using .NET technology
+# Karcis App
+an online booking event system in form of Web App which implement microservices .NET technology
 
 Features
 Dynamic event
