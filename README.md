@@ -33,5 +33,7 @@ Dokumentasi API App Karcis.com
 
 ![image](https://user-images.githubusercontent.com/71873035/174487378-3ae8b9db-bbbe-4c68-b658-d0dafd3b9135.png)
 
-skema Database
+Database skema
 
+
+for security we used jwt security token for verifying user for each request with bcrypt encryption. For the API design pattern consist of Model, Helper, and Service where Model includes the model representation of Entity in the database, service as the service layer receiving the request, and helper contains our business logic for querying the data. The API used LINQ technology to do data manipulation to reduce the weight on the database server/
