@@ -16,27 +16,45 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup MSBuild path
-        uses: microsoft/setup-msbuild@v1.0.2
+      # - name: Setup MSBuild path
+      #   uses: microsoft/setup-msbuild@v1.0.2
 
-      - name: Setup NuGet
-        uses: NuGet/setup-nuget@v1.0.5
+      # - name: Setup NuGet
+      #   uses: NuGet/setup-nuget@v1.0.5
       
-      - name: Restore NuGet packages
-        run: |
-          cd ./KarcisApp
-          nuget restore
+      # - name: Restore NuGet packages
+      #   run: |
+      #     cd ./KarcisApp
+      #     nuget restore
 
-      - name: Publish to folder
+      # - name: Publish to folder
+      #   run: |
+      #     cd ./KarcisApp
+      #     msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
+
+      # - name: Upload artifact for deployment job
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: ASP-app
+      #     path: '/published/**'
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '3.1.x'
+          
+      - name: Build with dotnet
+        working-directory: ./your-project-path  # Replace with your folder path
         run: |
           cd ./KarcisApp
-          msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
+          dotnet restore
+          dotnet build --configuration Release
+          dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: ASP-app
-          path: '/published/**'
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
     runs-on: windows-latest
