@@ -50,13 +50,13 @@ jobs:
           dir .
           dotnet restore Karcis.sln
           dotnet build Karcis.sln --configuration Release
-          dotnet publish Karcis/Karcis.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
+          dotnet publish Karcis/Karcis.csproj -c Release -o ${{env.DOTNET_ROOT}}\myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{env.DOTNET_ROOT}}\myapp
 
   deploy:
     runs-on: windows-latest
