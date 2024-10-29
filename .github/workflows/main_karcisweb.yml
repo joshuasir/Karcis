@@ -47,7 +47,7 @@ jobs:
       - name: Build with dotnet
         working-directory: KarcisApp  # Replace with your folder path
         run: |
-          cd
+          dir .
           dotnet restore Karcis.sln
           dotnet build Karcis.sln --configuration Release
           dotnet publish Karcis.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
