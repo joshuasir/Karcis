@@ -23,66 +23,103 @@ namespace Karcis.Controllers
             _logger = logger;
         }
 
-        
+
         public async Task<IActionResult> IndexAsync()
         {
-            
-            var client = new HttpClient();
-
-            // get event data
-            var request = new HttpRequestMessage
+            try
             {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri("http://localhost:42069/event?keyword=FEST"),
-                Content = new StringContent("", Encoding.UTF8, MediaTypeNames.Application.Json /* or "application/json" in older versions */),
-            };
-
-            var response = await client.SendAsync(request).ConfigureAwait(false);
-            response.EnsureSuccessStatusCode();
-
-            var responseBody = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
-
-            var events = JsonConvert.DeserializeObject<Events>(responseBody);
-            var HomeView = new HomeViewModel()
-            {
-                Event = events.events[0],
-                User = new UserModel()
+                using (var client = new HttpClient())
                 {
-                    UserName = HttpContext.Session.GetString("UserName")
-                }
 
-            };
-            return View(HomeView);
+                    // get event data
+                    var request = new HttpRequestMessage
+                    {
+                        Method = HttpMethod.Get,
+                        RequestUri = new Uri("http://localhost:42069/event?keyword=FEST"),
+                        Content = new StringContent("", Encoding.UTF8, MediaTypeNames.Application.Json /* or "application/json" in older versions */),
+                    };
+
+                    var response = await client.SendAsync(request).ConfigureAwait(false);
+                    response.EnsureSuccessStatusCode();
+
+                    var responseBody = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+                    var events = JsonConvert.DeserializeObject<Events>(responseBody);
+                    var HomeView = new HomeViewModel()
+                    {
+                        Event = events.events[0],
+                        User = new UserModel()
+                        {
+                            UserName = HttpContext.Session.GetString("UserName")
+                        }
+
+                    };
+                    return View(HomeView);
+                }
+            }
+            catch (Exception ex) {
+                var HomeView = new HomeViewModel()
+                {
+                    Event = new EventViewModel() { 
+                        EventID = 0,
+                        EventStart = DateTime.Now,
+                        EventEnd = DateTime.Now.AddDays(7),
+                        EventDescription= "Biggest event of your life",
+                        EventLocation = "Zoom",
+                        EventName = "Meeting with Boss"
+                    },
+                    User = new UserModel()
+                    {
+                        UserName = HttpContext.Session.GetString("UserName")
+                    }
+
+                };
+                return View(HomeView);
+
+            }
+           
         }
 
         public async Task<IActionResult> Ticket()
         {
-            var client = new HttpClient();
-            // request available ticket quantity
-            var request = new HttpRequestMessage
+            try { 
+            using (var client = new HttpClient())
             {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri("http://localhost:42069/ticket?EventName=FEST"),
-                Content = new StringContent("", Encoding.UTF8, MediaTypeNames.Application.Json /* or "application/json" in older versions */),
-            };
-            var response = await client.SendAsync(request).ConfigureAwait(false);
-            response.EnsureSuccessStatusCode();
-
-            var responseBody = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
-            
-            // map to dictionary for static calling
-            var tickets = JsonConvert.DeserializeObject<List<TicketViewModel>>(responseBody);
-            var TicketsDict = new Dictionary<string, TicketViewModel>();
-            
-            tickets.ForEach(e =>
-            {
-                if (!TicketsDict.ContainsKey(e.TicketType))
+                // request available ticket quantity
+                var request = new HttpRequestMessage
                 {
-                    TicketsDict.Add(e.TicketType, e);
-                }
-                
-            });
-            return View("MainTicket", TicketsDict);
+                    Method = HttpMethod.Get,
+                    RequestUri = new Uri("http://localhost:42069/ticket?EventName=FEST"),
+                    Content = new StringContent("", Encoding.UTF8, MediaTypeNames.Application.Json /* or "application/json" in older versions */),
+                };
+                var response = await client.SendAsync(request).ConfigureAwait(false);
+                response.EnsureSuccessStatusCode();
+
+                var responseBody = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+                // map to dictionary for static calling
+                var tickets = JsonConvert.DeserializeObject<List<TicketViewModel>>(responseBody);
+                var TicketsDict = new Dictionary<string, TicketViewModel>();
+
+                tickets.ForEach(e =>
+                {
+                    if (!TicketsDict.ContainsKey(e.TicketType))
+                    {
+                        TicketsDict.Add(e.TicketType, e);
+                    }
+
+                });
+                return View("MainTicket", TicketsDict);
+            }
+            }catch(Exception ex)
+            {
+                var TicketsDict = new Dictionary<string, TicketViewModel>();
+                TicketsDict.Add("Golden", new TicketViewModel());
+                TicketsDict.Add("Platinum", new TicketViewModel());
+                TicketsDict.Add("Bronze", new TicketViewModel());
+                TicketsDict.Add("Silver", new TicketViewModel());
+                return View("MainTicket", TicketsDict);
+            }
         }
         
         [HttpPost]
