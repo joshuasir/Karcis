@@ -1,6 +1,9 @@
 # Karcis App
 an online booking event system in form of Web App which implement microservice .NET technology. There 2 roles user and admin where user can look for event choose the ticket type and amount for the event. User need to signup and verify their email to book tickets. After ordering a ticket(s) user can check in their history tab and can choose to pay. Admin can then check the user payment and validate the order.
 
+Preview (No Backend)
+[https://karcisweb-cwfnbgd8d5cuesc2.australiaeast-01.azurewebsites.net/](https://karcisweb-cwfnbgd8d5cuesc2.australiaeast-01.azurewebsites.net/)
+
 Features
 Dynamic event
 ![image](https://user-images.githubusercontent.com/71873035/174487437-7e3034a0-f608-4c14-b5ae-0f10dc5c7fbf.png)
