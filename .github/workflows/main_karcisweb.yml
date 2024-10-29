@@ -43,14 +43,14 @@ jobs:
           dotnet-version: '3.1.x'
       - name: List files to debug
         run: |
-          dir KarcisApp
+          dir ./KarcisApp
       - name: Build with dotnet
-        working-directory: ./KarcisApp  # Replace with your folder path
+        working-directory: KarcisApp  # Replace with your folder path
         run: |
           cd
-          dotnet restore ./Karcis.sln
-          dotnet build ./Karcis.sln --configuration Release
-          dotnet publish ./Karcis.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
+          dotnet restore Karcis.sln
+          dotnet build Karcis.sln --configuration Release
+          dotnet publish Karcis.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
