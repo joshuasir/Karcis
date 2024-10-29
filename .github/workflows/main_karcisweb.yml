@@ -43,9 +43,8 @@ jobs:
           dotnet-version: '3.1.x'
           
       - name: Build with dotnet
-        working-directory: ./your-project-path  # Replace with your folder path
+        working-directory: ./KarcisApp  # Replace with your folder path
         run: |
-          cd ./KarcisApp
           dotnet restore
           dotnet build --configuration Release
           dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
